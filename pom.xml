@@ -96,18 +96,15 @@
 	</dependencies>
 	
 	<distributionManagement>
-    <snapshotRepository>
-        <id>nexus</id>
-        <url>http://65.2.148.138:8081/repository/banking-snapshot/</url>
-    </snapshotRepository>
-
     <repository>
-        <id>nexus</id>
-        <url>http://65.2.148.138:8081/repository/banking-release/</url>
+        <id>nexus-release</id>
+        <url>http://65.2.138.138:8081/repository/banking-release/</url>
     </repository>
-	       
-	</distributionManagement>
-	
+    <snapshotRepository>
+        <id>nexus-snapshot</id>
+        <url>http://65.2.138.138:8081/repository/banking-snapshot/</url>
+    </snapshotRepository>
+</distributionManagement>	
 	<build>
 		<finalName>maven-web-application</finalName>
 		
