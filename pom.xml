@@ -7,8 +7,6 @@
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 
-
-	
 	<name>maven-web-application</name>
 
 	<description>Maven Web Project for Java Project</description>
@@ -96,15 +94,20 @@
 	</dependencies>
 	
 	<distributionManagement>
-    <repository>
-        <id>nexus-release</id>
-        <url>http://65.2.138.138:8081/repository/banking-release/</url>
-    </repository>
-    <snapshotRepository>
-        <id>nexus-snapshot</id>
-        <url>http://65.2.138.138:8081/repository/banking-snapshot/</url>
-    </snapshotRepository>
-</distributionManagement>	
+    
+	<repository>
+              <id>nexus</id>
+              <name>KK FUNDA Releases Nexus Repository</name>
+              <url>http://65.2.148.138:8081/repository/banking-release/</url>
+            </repository>
+
+            <snapshotRepository>
+              <id>nexus</id>
+              <name>KK FUNDA Snapshot Nexus Repository </name>
+              <url>http://65.2.148.138:8081/repository/banking-snapshot/</url>
+            </snapshotRepository>
+	
+	</distributionManagement>	
 	<build>
 		<finalName>maven-web-application</finalName>
 		
