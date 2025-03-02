@@ -94,19 +94,16 @@
 	</dependencies>
 	
 	<distributionManagement>
-	
-	    <repository>
-	      <id>nexus</id>
-	      <name>KK FUNDA Releases Nexus Repository</name>
-	      <url>http://65.2.148.138:8081/repository/banking-release/</url>
-	    </repository>
-	    
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>KK FUNDA Snapshot Nexus Repository </name>
-	      <url>http://65.2.148.138:8081/repository/banking-snapshot/</url>
-	    </snapshotRepository>
-	    
+    <snapshotRepository>
+        <id>nexus</id>
+        <url>http://65.2.148.138:8081/repository/banking-snapshot/</url>
+    </snapshotRepository>
+
+    <repository>
+        <id>nexus</id>
+        <url>http://65.2.148.138:8081/repository/banking-release/</url>
+    </repository>
+	       
 	</distributionManagement>
 	
 	<build>
