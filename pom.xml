@@ -104,7 +104,7 @@
             <snapshotRepository>
               <id>nexus</id>
               <name>admin</name>
-              <url>http://13.201.45.30:8081/repository/bank-sanpshot/</url>
+              <url>http://13.201.45.30:8081/repository/bank-snapshot/</url>
             </snapshotRepository>
 	
 	</distributionManagement>	
