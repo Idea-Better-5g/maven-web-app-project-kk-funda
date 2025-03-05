@@ -11,7 +11,7 @@
 <body>
 <h1 align="center">Welcome to KK DevOps</h1>
 <h1 align="center"> KK FUNDA</h1>
-<h2 style="color: blue;">I am Vaman krishna </h2>
+<h2 style="color: red;">I am Vaman krishna </h2>
 
 <hr>
 <br>
