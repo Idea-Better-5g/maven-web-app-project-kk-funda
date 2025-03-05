@@ -3,6 +3,27 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .menu {
+            background-color: #333;
+            overflow: hidden;
+        }
+        .menu a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .menu a:hover {
+            background-color: #575757;
+        }
+    </style>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>KK FUNDA Home Page</title>
 <link href="images/kkfunda.jpg" rel="icon">
@@ -15,6 +36,13 @@
 
 <hr>
 <br>
+<div class="menu">
+    <a href="home.jsp">Home</a>
+    <a href="about.jsp">About</a>
+    <a href="services.jsp">Services</a>
+    <a href="contact.jsp">Contact</a>
+</div>
+
 	<h1><h3> Server Side IP Address </h3><br>
 
 <% 
