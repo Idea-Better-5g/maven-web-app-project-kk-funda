@@ -9,7 +9,7 @@
             font-family: Arial, sans-serif;
         }
         .menu {
-            background-color: #334;
+            background-color: #444;
             overflow: hidden;
         }
         .menu a {
